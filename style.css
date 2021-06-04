@@ -17,6 +17,16 @@ header{
   height: 100%;
   overflow: hidden;
   background-color:rgba(0,0,0,0.8);
+  animation: zoom 10s;
+}
+
+@keyframes zoom{
+  0%{
+    transform: scale(1.3);
+  }
+  100%{
+    transform: scale(1);
+  }
 }
 
 .img-edit img{
@@ -29,5 +39,64 @@ header{
 .banner{
   position: absolute;
   top: 30%;
-  left: 15%;
+  left: 15%;  
 }
+
+.banner h1{
+  color: aliceblue;
+  font-size: 2.5em;
+  font-family: "Baloo Da 2", serif;
+  font-weight: 200;
+  text-shadow: .2rem .3rem 3px rgba(0,0,0,0.4);
+  margin-bottom: 1.1em;
+  opacity: 0;
+  animation: moveBanner .5s forwards;
+    
+}
+
+
+.banner p{
+  font-family: "Josefin Slab", serif;
+  font-size: 1.8em;
+  margin-bottom: 1.5em;
+  color: white;
+  opacity: 0;
+  text-shadow: .2rem .3rem 3px rgba(0,0,0,0.4);
+  animation: moveBanner .7s forwards;
+  
+    
+}
+.banner button{
+  font-family: 'Mulish';
+  color: black;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  background: #FF4E50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F9D423, #FF4E50);
+  background: linear-gradient(to left, #F9D423, #FF4E50);
+  padding: 1rem 2rem;  
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0 ;
+  animation: moveBanner .9s forwards;
+}
+
+.banner button:hover{
+  color: #000;
+}
+
+@keyframes moveBanner {
+  0%{
+    transform: translateY(10rem) rotateY(-30deg);
+  }
+  100%{
+    transform: translateY(0) rotateY(0);
+    opacity: 1;
+  }
+  
+}
+
+
+
