@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-# Portfólio
-
-=======
 # portfólio
->>>>>>> 3b3fff907d57386caea0dd38d174c9dc41917845
+
 Portfolio de desenvolvimento - HTML - CSS - Java Script
 
 ## Tarefa
