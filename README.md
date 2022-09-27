@@ -1,6 +1,6 @@
 # portfólio
 
-Portfolio de desenvolvimento - HTML - CSS - Java Script
+Portfolio de desenvolvimento - HTML - CSS - Java-Script
 
 ## Tarefa
 
