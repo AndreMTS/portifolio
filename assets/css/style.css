@@ -7,3 +7,51 @@
     text-decoration: none;
 }
 
+/* Navbar - - - Inicio */
+
+.navbar{
+    position:fixed;
+    width:100%;
+    background-color: #313131;
+    padding: 15px 0;
+    font-family: 'Ubuntu',sans-serif;
+}
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.navbar .max-width {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.navbar .logo a{
+    color: #fff;
+    font-size:35px;
+    font-weight: 500;
+}
+
+.navbar .menu li{    
+    list-style: none;
+    display:inline-block;
+}
+
+.navbar .menu li a{ 
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+/*--- Home Inicio ---*/
+
+.home {
+    display: flex;    
+    height: 100vh;
+    color: #fff;
+    font-family: 'Ubuntu',sans-serif;
+    min-height: 500px;
+
+}
